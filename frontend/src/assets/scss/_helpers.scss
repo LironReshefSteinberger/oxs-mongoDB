@@ -1,0 +1,79 @@
+
+.clean-list {
+  list-style: none;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+
+.no-margin{
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  // background-color: blue;
+  // border: 0;
+
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}
+
+.show {
+  display: block;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.p5 {
+  padding: 5px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+
+.content-center{
+  justify-content: center;
+}
+
+.space-evenly{
+  justify-content: space-evenly;
+}
+
+// Layoutout Helpers
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+

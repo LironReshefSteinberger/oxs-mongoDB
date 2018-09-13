@@ -1,0 +1,47 @@
+
+// @import 'vendor';
+@import 'functions';
+@import 'helpers';
+@import 'typography';
+@import 'vars';
+@import 'layout';
+
+
+
+/* Components */
+* {
+  box-sizing:border-box;
+}
+
+   
+html {
+    font-size: 16px;
+    background-color: white;
+    height: 100%;
+  }
+
+body {
+  margin: 0;
+  font-weight:200;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+p, h1,h2, h3, h4, h5, h6, li, body{
+  margin: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+
