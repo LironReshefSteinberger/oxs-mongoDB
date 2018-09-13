@@ -14,7 +14,7 @@ app.use(cors({
 
 app.use(bodyParser.json());
 
-app.use(express.static('dist'));
+app.use(express.static('../frontend/dist'));
 
 app.get('/', (req, res) => res.send('oxs'))
 
